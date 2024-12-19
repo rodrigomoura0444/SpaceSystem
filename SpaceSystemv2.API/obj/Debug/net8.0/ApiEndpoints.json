@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "SpaceSystemv2.API.Controllers.AstronautController",
+    "Method": "Create",
+    "RelativePath": "api/Astronaut",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "astronautRequest",
+        "Type": "SpaceSystemv2.API.DTO.CreateAstronautRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpaceSystemv2.API.Controllers.AstronautController",
+    "Method": "GetAll",
+    "RelativePath": "api/Astronaut",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpaceSystemv2.API.Controllers.AstronautController",
+    "Method": "GetbyId",
+    "RelativePath": "api/Astronaut/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpaceSystemv2.API.Controllers.AstronautController",
+    "Method": "Delete",
+    "RelativePath": "api/Astronaut/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
